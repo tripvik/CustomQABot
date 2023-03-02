@@ -1,8 +1,8 @@
-﻿# Azure Bot - Customer Question Answering Sample with promt support
+﻿# Azure Bot - C# Custom Question Answering Sample with prompt support
 
 * Custom question answering has feature to add prompts for follow up questions - [Guided Conversation with Muliturn prompts](https://learn.microsoft.com/en-us/azure/cognitive-services/language-service/question-answering/tutorials/guided-conversations). 
 * ![Language Studio prompts](./assets/Language_Studio.png)
-* This sample is fork (as of 02nd Mar 2023) of [CustomQABot Sample](https://github.com/microsoft/BotBuilder-Samples/tree/main/samples/csharp_dotnetcore/12.customQABot) from Bot Builder Samples repository with additional functionality of showing suggested prompts returned by Custom QA.
+* This sample is fork (as of 02nd Mar 2023) of [CustomQABot Sample](https://github.com/microsoft/BotBuilder-Samples/tree/main/samples/csharp_dotnetcore/12.customQABot) from Bot Builder Samples C# repository with additional functionality of showing suggested prompts returned by Custom QA.
 * The sample uses [SuggestedActions](https://learn.microsoft.com/en-us/azure/bot-service/bot-builder-howto-add-suggested-actions?view=azure-bot-service-4.0&tabs=csharp) concept to show the [prompts](https://learn.microsoft.com/en-us/dotnet/api/microsoft.bot.builder.ai.qna.qnamakerprompt?view=botbuilder-dotnet-stable) returned by [QNAMaker.GetAnswersAsync](https://learn.microsoft.com/en-us/dotnet/api/microsoft.bot.builder.ai.qna.qnamaker.getanswersasync?view=botbuilder-dotnet-stable)
  <img src="./assets/Bot_Web_Chat_With_QAPrompts.png" alt="drawing" style="width:50%;"/>
 
