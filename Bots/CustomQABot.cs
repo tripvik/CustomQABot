@@ -104,7 +104,7 @@ namespace Microsoft.BotBuilderSamples.Bots
                 {
                     var reply = MessageFactory.Text("Select the appropriate suggestion");
                     
-                    //This method enumerates through prompts return from QA services and adds a suggested card actions
+                    //This method enumerates through prompts returned from QA services and adds a suggested card actions.
                     activities.Add(GetPromptOptions(response, reply));
                 }
 
@@ -141,7 +141,7 @@ namespace Microsoft.BotBuilderSamples.Bots
             }
         }
 
-//This method enumerates through prompts return from QA services and adds a suggested card actions
+//This method enumerates through prompts returned from QA services and adds a suggested card actions.
         protected Activity GetPromptOptions(QueryResult[] response, Activity reply)
         {
             var Actions = new List<CardAction>();
